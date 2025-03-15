@@ -37,7 +37,7 @@ services:
     restart: unless-stopped
 
   postgres:
-    image: postgres:15
+    image: postgres:15-bullseye
     restart: always
     environment:
       POSTGRES_USER: postgres
