@@ -33,7 +33,7 @@ done
 
 echo "All repositories have been cloned into the Fawry-Intern directory"
 
-# Navigate to infrastructure directory and start Docker Compose
+# Navigate to infrastructure directory and start Docker Compose, Make sure to have proper resources bc your pc gonna be on fire XD
 echo "Starting Docker Compose services..."
 cd infrastructure
 docker-compose up -d
